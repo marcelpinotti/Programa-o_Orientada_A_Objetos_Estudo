@@ -68,6 +68,12 @@ Classe Filha = Classe Derivada.
 
 Conceito de DRY: **Don’t Repeat Yourself** (Não Se Repita) - Não repetição de código (reaproveitamento de código).
 
+A *HERANÇA* precisa fazer sentido em termos de semântica, exemplo, "Curso extends Conteudo = Curso **é um** Conteúdo".
+
+A classe base pode ser abstrata, desde que ela só sirva como base para as classes derivadas, desta forma a mesma não pode ser instanciada.
+
+Existindo um método abstrato dentro da classe base, todas as classes derivadas são obrigadas a implementar o método, esse obrigação na implementação é chamada de **Princípio da Sobrescrita**.
+
 
 
 ________________________
@@ -76,7 +82,13 @@ ________________________
 
 **.QUARTO PILAR (POLIMORFISMO).**
 
-*POLIMORFISMO* .......
+*POLIMORFISMO* é a capacidade de referenciar um objeto de diferentes formas, desde que essa forma respeite a hierarquia de classes.
+
+**Princípio da Sobrecarga**: são métodos recebem o mesmo nome mas que recebem parâmetros diferentes. 
+
+
+
+
 
 ***EM CONSTRUÇÃO***
 

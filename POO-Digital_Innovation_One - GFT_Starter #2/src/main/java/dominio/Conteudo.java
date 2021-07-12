@@ -1,7 +1,8 @@
 package dominio;
 
-public class Conteudo {
+public abstract class Conteudo {
 
+    protected static final double XP_CALCULO = 10.0;
     protected String titulo;
     protected String descricao;
 
@@ -25,5 +26,7 @@ public class Conteudo {
     public void setDescricao(String descricao){
         this.descricao = descricao;
     }
+
+    public abstract double calcularXP();
 
 }

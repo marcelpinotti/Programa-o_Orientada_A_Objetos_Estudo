@@ -9,6 +9,11 @@ public class Curso extends Conteudo {
         this.tempo = tempo;
     }
 
+    @Override
+    public double calcularXP() {
+        return XP_CALCULO * getTempo();
+    }
+
     public int getTempo(){
         return tempo;
     }
@@ -19,6 +24,7 @@ public class Curso extends Conteudo {
 
     @Override
     public String toString (){
-        return "Curso: " + super.titulo + ", Descrição: " + super.descricao + ", Tempo: " + this.tempo + " min";
+        return "\n Curso: " + super.titulo + ", Descrição: " + super.descricao + ", Tempo: " + this.tempo + " min";
     }
+
 }

@@ -1,16 +1,16 @@
 package dominio;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Bootcamp {
 
     private String name;
-    private List<Dev> devs;
+    private List<Dev> devs = new ArrayList<>();
     private LocalDate dataInicio;
     private LocalDate dataFim;
-    private List<Curso> cursos;
-    private List<Mentoria> mentorias;
+    private List<Conteudo> cursosMentorias = new ArrayList<>();
 
     public String getName() {
         return name;
@@ -44,19 +44,22 @@ public class Bootcamp {
         this.dataFim = dataFim;
     }
 
-    public List<Curso> getCursos() {
-        return cursos;
+    public List<Conteudo> getCursosMentorias() {
+        return cursosMentorias;
     }
 
-    public void setCursos(List<Curso> cursos) {
-        this.cursos = cursos;
+    public void setCursosMentorias(List<Conteudo> cursosMentorias) {
+        this.cursosMentorias = cursosMentorias;
     }
 
-    public List<Mentoria> getMentorias() {
-        return mentorias;
-    }
-
-    public void setMentorias(List<Mentoria> mentorias) {
-        this.mentorias = mentorias;
+    @Override
+    public String toString (){
+        return  "-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-" +
+                "\nBootcamp: " + this.getName() +
+                "\nInscritos: " + this.getDevs() +
+                "\nData de Início: " + this.getDataInicio() +
+                "\nData de Fim: " + this.getDataFim() +
+                "\nTrilha: " + this.getCursosMentorias() +
+                "\n-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-";
     }
 }
