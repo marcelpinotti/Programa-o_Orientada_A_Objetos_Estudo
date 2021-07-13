@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="ExercicioPessoaLivro">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/ExercicioPessoaLivro.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
