@@ -1,7 +1,6 @@
-### Live de Programação Orientada a Objetos - DIGITAL INNOVATION ONE - 4 Pilares (Abstração, Encapsulamento, Herança e Polimorfismo)
+# Live de Programação Orientada a Objetos - 4 Pilares (Abstração, Encapsulamento, Herança e Polimorfismo)
 
-__________
-
+### Resumo
 Neste repositório é apresentado o projeto que serviu como explicação para a base de POO, os 4 pilares.
 
 - **Projeto**:
@@ -10,11 +9,7 @@ Neste repositório é apresentado o projeto que serviu como explicação para a 
     - **Venilton FalvoJr**
     - *Repositório da mentoria:* https://github.com/falvojr/dio-live-20210621
 
-
-
--------------------
-
-**.PRIMEIRO PILAR (ABSTRAÇÃO).**
+## PRIMEIRO PILAR (ABSTRAÇÃO)
 
 *ABSTRAÇÃO* é a capacidade de absorver quais são as necessidades reais para solucionar um problema computacional. 
 
@@ -26,19 +21,11 @@ A ABSTRAÇÃO está diretamente relacionado com as <u>*classes de domínio, aos 
 
 - métodos = comportamentos.
 
-  
-
------------------
-
-
-
-**.SEGUNDO PILAR (ENCAPSULAMENTO).**
+## SEGUNDO PILAR (ENCAPSULAMENTO)
 
 *ENCAPSULAMENTO* é o pilar responsável pela segurança das informações, é como as informações estão sendo expostas através das suas interfaces de uso.
 
 O principal objetivo do *ENCAPSULAMENTO* é a não exposição das informações que não são necessárias.
-
-
 
 Podemos considerar a interface de uso como o nível de acesso (permisão) as informações:
 
@@ -48,17 +35,9 @@ Podemos considerar a interface de uso como o nível de acesso (permisão) as inf
   - **package:** os atributos e métodos da classe só estarão disponíveis, para as outras classes, dentro do pacote de criação da classe dos mesmos ("não são muito utilizados"); 
   - **private:** os atributos só podem ser acessados dentro da própria classe e através dos métodos públicos("o nível mais alto de proteção").
 
-
-
 **obs:** Os getters e setters tem uma relação muito forte com o conceito de encapsulamento, mas são uma convensão Java, para os desenvolvedores Java manterem um padrão de desenvolvimento de códigos.
 
-
-
---------------
-
-
-
-**. TERCEIRO PILAR (HERANÇA).**
+## TERCEIRO PILAR (HERANÇA)
 
 *HERANÇA* é o pilar que explora a reutilização de código, onde existe uma classe mãe (mais genérica), que "doa" suas características  e comportamentos para classes filhas serem implementadas.
 
@@ -75,14 +54,8 @@ A classe base pode ser abstrata, desde que ela só sirva como base para as class
 Existindo um método abstrato dentro da classe base, todas as classes derivadas são obrigadas a implementar o método, esse obrigação na implementação é chamada de **Princípio da Sobrescrita**.
 
 
-
-________________________
-
-
-
-**.QUARTO PILAR (POLIMORFISMO).**
+## QUARTO PILAR (POLIMORFISMO)
 
 *POLIMORFISMO* é a capacidade de referenciar um objeto de diferentes formas, desde que essa forma respeite a hierarquia de classes.
 
-**Princípio da Sobrecarga**: são métodos recebem o mesmo nome mas que recebem parâmetros diferentes. 
-
+**Princípio da Sobrecarga**: são métodos recebem o mesmo nome mas que recebem parâmetros diferentes.
