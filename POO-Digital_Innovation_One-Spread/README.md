@@ -1,11 +1,8 @@
 # Desafio - Abstraindo um Bootcamp Usando Orientação a Objetos em Java
 
-### Tech Teacher / Digital Innovation One - **Camila Cavalcante**
+## Tech Teacher / Digital Innovation One - **Camila Cavalcante**
 
-
-
-
-<h4>Linguagem de Programação VS Paradigma de Linguagem de Programação</h4>
+### Linguagem de Programação VS Paradigma de Linguagem de Programação
 
 **LINGUAGEM DE PROGRAMAÇÃO:** É uma linguagem formal que, através de uma série de instruções, permite que um programador escreva um conjunto de ordens, ações consecutivas, dados e algoritmos para criar programas que controlam o comportamento físico e lógico de uma máquina.
 
@@ -13,9 +10,7 @@
 
 O paradigma pode ser classificado como: **Paradigma Imperativo** ou **Paradigma Declarativo**
 
-
-
-<h4>Programação Orientada a Objetos</h4>
+### Programação Orientada a Objetos
 
 Algumas definições:
 
@@ -29,18 +24,17 @@ Algumas definições:
 
 - Paradigma Imperativo.
 
-  
 
 **Paradigma de Programação Orientado a Objetos:** É um modelo de desenvolvimento de aplicações, sendo este modelo construído acerca do conceito de objetos. 
 
-
-
 - **POO** é baseado na aproximação entre o mundo real e o mundo virtual. 
+
 - É baseada em **4 pilares:**
   - Abstração. Extrair aspectos essenciais de um domínio;
   - Encapsulamento. Esconder a implementação dos objetos;
   - Herança.  Permite que uma classe base (derivada) filha reutilize (herda), estende ou modifica o comportamento de uma classe base (pai);
   - Polimorfismo. É a capacidade de um objeto ser referenciado de várias formas.
+  
 - **Conceitos Fundamentais:**
   - Domínio. Conhecida como camada de negócio ou de objetos de negócio,  classes correspondentes a objetos que fazem parte da descrição do problema;
   - Classe. é um molde que tem a função de representar objetos do mundo real. Na Classe declararmos atributos (características) e métodos (comportamentos);
@@ -52,4 +46,4 @@ Algumas definições:
 
 
 
-***Link do Projeto Original:*** https://github.com/cami-la/desafio-poo-dio
+### ***Link do Projeto Original:*** https://github.com/cami-la/desafio-poo-dio
